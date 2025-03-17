@@ -1,6 +1,6 @@
 use std::time::Instant;
 
-const N: usize = 100; // Altere para 10, 50, 100 para testar
+const N: usize = 100;
 
 fn gauss_elimination(mut a: [[f64; N + 1]; N]) -> [f64; N] {
     let mut x = [0.0; N];
