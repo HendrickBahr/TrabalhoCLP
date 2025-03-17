@@ -14,6 +14,7 @@ Como Utilizar o Programa de Eliminação de Gauss em C:
 
 Compilação do Código
 Para compilar o código em um terminal Linux com gcc, use:
+
 gcc gauss.c -o gauss -O2 -lm
 O -O2 ativa otimizações e -lm liga a biblioteca matemática se necessário.
 
